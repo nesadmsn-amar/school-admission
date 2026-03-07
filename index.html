@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Admission</title>
+</head>
+
+<body>
+<body>
+<body style="background-color:#e6f2ff;">
+<div style="position:fixed; bottom:10px; right:10px; font-size:14px; color:gray;">
+Web Devloped By: Amar B Sarode(B.Tech-Electronics & Telecommunication Engineer )
+</div>
+<center>
+<img src="logo.jpeg" width="100">
+</center>
+<center>
+<img src="school.jpeg" width="500">
+</center>
+<h2>RAYAT SHIKSHAN SANSTHA'S</h2>
+<h3>New English School & Jr College Malthan</h3>
+<h4>Admission Form 2026-27</h4>
+
+<form id="form">
+
+Student Name
+<input name="name"><br><br>
+
+Date of Birth
+<input type="date" name="dob"><br><br>
+
+Gender
+<select name="gender">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select><br><br>
+
+Class
+<select name="class">
+<option>5 Semi</option>
+<option>5 Marathi</option>
+<option>6 Semi</option>
+<option>6 Marathi</option>
+<option>7 Semi</option>
+<option>7 Marathi</option>
+<option>8 Semi</option>
+<option>8 Marathi</option>
+<option>9 Semi</option>
+<option>9 Marathi</option>
+<option>10 Semi</option>
+<option>10 Marathi</option>
+<option>11 Art</option>
+<option>12 Art</option>
+</select><br><br>
+
+Father Name
+<input name="father"><br><br>
+
+Mother Name
+<input name="mother"><br><br>
+
+Mobile Number
+<input name="mobile"><br><br>
+
+Address
+<textarea name="address"></textarea><br><br>
+
+<button type="submit">Submit Admission</button>
+
+</form>
+
+<script>
+
+const scriptURL="https://script.google.com/macros/s/AKfycbyzCoiNDVerHajhs-Ey92D0zLuf3w6-uei-JeRJvsG1Rblzpg8JU1jMEL_eLJgtwbgxRw/exec"
+
+const form=document.getElementById("form")
+
+form.addEventListener("submit",e=>{
+
+e.preventDefault()
+
+fetch(scriptURL,{method:"POST",body:new FormData(form)})
+
+.then(response=>alert("Admission Submitted"))
+
+.catch(error=>alert("Error"))
+
+})
+
+</script>
+
+</body>
+
+</html>
+
+
+
