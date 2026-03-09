@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>नविन प्रवेश 2026-27 </title>
+<style>
+body{
+background: linear-gradient(135deg,#dbeafe,#bfdbfe);
+font-family: Arial;
+margin:0;
+padding:0;
+text-align:center;
+animation: fadein 2s;
+}
+
+/* Page Animation */
+
+@keyframes fadein{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+/* Form Animation */
+
+form{
+background: rgba(255,255,255,0.3);
+backdrop-filter: blur(10px);
+padding:25px;
+width:320px;
+margin:auto;
+border-radius:15px;
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+animation: slideup 1.5s;
+}
+
+@keyframes slideup{
+from{
+transform:translateY(80px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+/* Input */
+
+input,select,textarea{
+width:90%;
+padding:10px;
+margin:8px;
+border:none;
+border-radius:8px;
+transition:0.3s;
+}
+
+input:focus{
+transform:scale(1.05);
+}
+
+/* Button */
+
+button{
+background:#2563eb;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+transition:0.4s;
+}
+
+button:hover{
+background:#1e40af;
+transform:scale(1.1);
+}
+
+/* Teacher Section */
+
+.teacher-section{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.teacher-card{
+background:white;
+border-radius:15px;
+padding:15px;
+box-shadow:0 4px 20px rgba(0,0,0,0.2);
+transition:0.4s;
+}
+
+/* Teacher Card Animation */
+
+.teacher-card:hover{
+transform:translateY(-10px) scale(1.05);
+}
+
+.teacher-card img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+</style>
+</head>
+<body>
+<body style="background-color:#e6f2ff;">
+<div style="position:fixed; bottom:10px; right:10px; font-size:14px; color:gray;">
+Web Devloped By:श्री.अमर ब  सरोदे (विद्युत आणि दूरसंचार अभियंता )
+</div>
+<center>
+<img src="logo.jpeg" width="100">
+</center>
+<center>
+<img src="school.jpeg" width="500">
+</center>
+<h2>रयत शिक्षण संस्थेचे </h2>
+<h3>न्यू इंग्लिश स्कूल आणि ज्यू. कॉलेज मलठण </h3>
+<h4>प्रवेश फार्म 2026-27</h4>
+
+<form id="form">
+
+विद्यार्थ्यांचे नाव
+<input name="विद्यार्थ्यांचे नाव"><br><br>
+
+जन्म दिनांक 
+<input type="date" name="जन्म दिनांक"><br><br>
+
+लिंग 
+<select name="लिंग">
+<option>मुलगा</option>
+<option>मुलगी </option>
+<option>इतर </option>
+</select><br><br>
+
+वर्ग निवड 
+<select name="वर्ग निवड">
+<option>5 सेमी </option>
+<option>5 मराठी</option>
+<option>6 सेमी</option>
+<option>6 मराठी</option>
+<option>7 सेमी </option>
+<option>7 मराठी</option>
+<option>8 सेमी </option>
+<option>8 मराठी</option>
+<option>9 सेमी</option>
+<option>9 मराठी</option>
+<option>10 सेमी </option>
+<option>10 मराठी</option>
+<option>11 आर्ट</option>
+<option>12 आर्ट</option>
+</select><br><br>
+
+वडिलांचे नाव 
+<input name="वडिलांचे नाव"><br><br>
+
+आईचे नाव 
+<input name="आईचे नाव"><br><br>
+
+मोबईल क्रमांक 
+<input name="मोबईल क्रमांक"><br><br>
+
+पत्ता 
+<textarea name="पत्ता"></textarea><br><br>
+
+<button type="submit">Submit Admission/अर्ज सादर करा</button>
+
+</form>
+<style>
+
+.teacher-grid{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:15px;
+font-size:18px;
+margin-top:10px;
+}
+
+.top-staff{
+display:flex;
+justify-content:center;
+gap:80px;
+margin-bottom:30px;
+font-size:20px;
+}
+
+.staff-box{
+border:1px solid #ccc;
+padding:10px 20px;
+border-radius:8px;
+}
+
+</style>
+
+</div>
+
+<style>
+.teacher-section{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+text-align:center;
+margin-top:20px;
+}
+
+.teacher-card{
+border:1px solid #ccc;
+padding:15px;
+border-radius:10px;
+background:#f9f9f9;
+}
+
+.teacher-card img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+}
+</style>
+
+<h2 style="text-align:center;">शाळा प्रशासन विभाग  </h2>
+
+<div class="teacher-section">
+
+<div class="teacher-card">
+<img src="aaswale.jpeg">
+<h4>सौ.आसवले मॅडम </h4>
+<p>मुख्याध्यापिका </p>
+</div>
+
+<div class="teacher-card">
+<img src="tikale.jpeg">
+<h4>सौ.टिकले मॅडम </h4>
+<p>पर्यवेक्षिका </p>
+</div>
+
+<div class="teacher-card">
+<img src="rakshe.jpeg">
+<h4>श्री.राक्षे सर   </h4>
+<p>वरिष्ठ. लिपिक  </p>
+</div>
+<div class="teacher-card">
+<img src="thorat.jpeg">
+<h4>श्री.थोरात सर </h4>
+<p>ग्रंथपाल </p>
+</div>
+
+<div class="teacher-card">
+<img src="bodre.jpeg">
+<h4>श्री.बोडरे सर  </h4>
+<p>क.लिपिक  </p>
+</div>
+
+
+<div class="teacher-card">
+<img src="yewale.jpeg">
+<h4>श्री.येवले मामा </h4>
+<p>शिपाई मामा  </p>
+</div>
+
+<div class="teacher-card">
+<img src="dafal.jpeg">
+<h4>श्री.डफल मामा  </h4>
+<p>शिपाई मामा  </p>
+</div>
+
+<div class="teacher-card">
+<img src="dhivar.jpeg">
+<h4>श्री.ढिवर अभिषेक दादा </h4>
+<p>शिपाई मामा  </p>
+</div>
+</div class="teacher-section">
+
+</div>
+<h3 style="text-align:center;">कनिष्ठ शिक्षकवृंद विभाग </h3>
+<div class="teacher-section">
+<div class="teacher-card">
+<img src="sayyad.jpeg">
+<h4>सय्यद सर</h4>
+<p>क.शिक्षक,वर्गशिक्षक-१२ वी, आरोग्य विभाग प्रमुख   </p>
+</div>
+
+<div class="teacher-card">
+<img src="gaikwad1.jpeg">
+<h4>श्री. गायकवाड सर</h4>
+<p>क.शिक्षक,वर्गशिक्षक-११ वी   </p>
+</div>
+
+<div class="teacher-card">
+<img src="gangrde.jpeg">
+<h4>सौ.गांगरडे मॅडम </h4>
+<p>क. शिक्षक </p>
+</div>
+
+<div class="teacher-card">
+<img src="khedkar.jpeg">
+<h4>श्रीम .खेडकर मॅडम </h4>
+<p>क. शिक्षक,वर्गशिक्षक-८ब, विविध समित्या विभाग प्रमुख   </p>
+</div>
+
+<div class="teacher-card">
+<img src="dandwate.jpeg">
+<h4>श्री.दंडवते सर </h4>
+<p>क. शिक्षक </p>
+</div>
+
+<div class="teacher-card">
+<img src="jawale.jpeg">
+<h4>श्री.जावळे सर</h4>
+<p>क. शिक्षक </p>
+</div>
+
+</div>
+<h4 style="text-align:center;">माध्यमिक शिक्षकवृंद विभाग </h4>
+<div class="teacher-section">
+
+<div class="teacher-card">
+<img src="unde.jpeg">
+<h4>श्री. उंडे सर</h4>
+<p>शिक्षक,वर्गशिक्षक-५ अ/ब , RTS विभाग प्रमुख,गांधी विचार संस्कार परीक्षा विभाग </p>
+</div>
+
+<div class="teacher-card">
+<img src="pawar.jpeg">
+<h4>श्री. पवार सर </h4>
+<p>शिक्षक-वर्गशिक्षक ७ ब, प्रमुख-स्कॉलरशिप विभाग, कर्मवीर विद्या प्रबोधनी </p>
+</div>
+
+<div class="teacher-card">
+<img src="chandane.jpeg">
+<h4>सौ.चांदणे मॅडम </h4>
+<p>शिक्षक,वर्गशिक्षक- ६अ/ब   , सहशालेय विभाग प्रमुख </p>
+</div>
+
+<div class="teacher-card">
+<img src="mundhe.jpeg">
+<h4>श्री.मुंढे सर </h4>
+<p>शिक्षक, पोषण आहार प्रमुख  </p>
+</div>
+
+<div class="teacher-card">
+<img src="adhav.jpeg">
+<h4>श्रीम. आढाव मॅडम </h4>
+<p>शिक्षक,वर्गशिक्षक- ७अ, सांस्कृतिक विभाग प्रमुख  </p>
+</div>
+
+<div class="teacher-card">
+<img src="dhasal.jpeg">
+<h4>श्री.ढसाळ सर</h4>
+<p>शिक्षक -गुरुकुल प्रमुख,परीक्षा विभाग, SSC बोर्ड विभाग </p>
+</div>
+
+<div class="teacher-card">
+<img src="dabhade.jpeg">
+<h4>श्री. दाभाडे सर</h4>
+<p>शिक्षक-वर्गशिक्षक ८अ, प्रमुख -स्कॉलरशिप विभाग </p>
+</div>
+
+<div class="teacher-card">
+<img src="nigade.jpeg">
+<h4>श्रीम.निगडे मॅडम </h4>
+<p>शिक्षक-वर्गशिक्षक ८क , कला विभाग प्रमुख  </p>
+</div>
+
+<div class="teacher-card">
+<img src="gaikwad2.jpeg">
+<h4>सौ.गायकवाड मॅडम </h4>
+<p>संगणक शिक्षक -ICT</p>
+</div>
+
+<div class="teacher-card">
+<img src="padwal.jpeg">
+<h4>सौ.पडवळ मॅडम </h4>
+<p>शिक्षक,वर्गशिक्षक-९अ</p>
+</div>
+
+<div class="teacher-card">
+<img src="ichake.jpeg">
+<h4>श्री.इचके सर </h4>
+<p>शिक्षक,वर्गशिक्षक-९ ब,प्रमुख-अटल लॅब विभाग  , SSC बोर्ड विभाग   </p>
+</div>
+
+<div class="teacher-card">
+<img src="narute.jpeg">
+<h4>श्री.नरुटे  सर </h4>
+<p>शिक्षक,वर्गशिक्षक-१० अ, प्रमुख- SSC बोर्ड विभाग , परीक्षा विभाग, क्रीडा विभाग, सहल विभाग </p>
+</div>
+
+<div class="teacher-card">
+<img src="raskar.jpeg">
+<h4>श्री.रासकर सर</h4>
+<p>शिक्षक,वर्गशिक्षक-१० ब ,प्रमुख -आर्टिफिशयल बुद्धिमत्ता AI,रयत Olympid विभाग </p>
+</div>
+
+<div class="teacher-card">
+<img src="lonkar.jpeg">
+<h4>श्री.लोणकर सर </h4>
+<p>शिक्षक,प्रमुख- NMMS-विभाग , सहलप्रमुख, संगणक विभाग  </p>
+</div>
+
+<div class="teacher-card">
+<img src="sarode.jpeg">
+<h4>श्री.सरोदे सर</h4>
+<p>शिक्षक </p>
+</div>
+
+<div class="teacher-card">
+<img src="dolse.jpeg">
+<h4>श्री.डोळसे सर </h4>
+<p>शिक्षक </p>
+</div>
+
+</div>
+<script>
+
+const scriptURL="https://script.google.com/macros/s/AKfycbwq_IKE1kB0RtxIVEUJQOyP3y-VkOC5CXnBDwCcXzxr8Y0smQmhy2Jx4MJt3v-g9lRrUQ/exec"
+
+const form=document.getElementById("form")
+
+form.addEventListener("submit",e=>{
+
+e.preventDefault()
+
+fetch(scriptURL,{method:"POST",body:new FormData(form)})
+
+.then(response=>alert("Admission Submitted"))
+
+.catch(error=>alert("Error"))
+
+})
+
+</script>
+
+</body>
+
+</html>
+
+
+
